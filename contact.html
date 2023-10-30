@@ -12,20 +12,17 @@
                 Name: </label><br>
                 <input type="text"; id="nameb1"; name="person"><br>
             <br>
-                Pronouns:<br>
-                <input type="radio"; id="himr1"; name="pronouns">
-                <label for="himr1">
-                he/him </label><br>
-                <input type="radio"; id="sher1"; name="pronouns">
-                <label for="sher1">
-                she/her </label><br>
-                <input type="radio"; id="theyr1"; name="pronouns">
-                <label for="theyr1">
-                they/them </label><br>
+                <label for="pndrop">Pronouns:</label>
+                <select name="pronouns"; id="pndrop">
+                    <option value="him">He/Him</option>
+                    <option value="she">She/Her</option>
+                    <option value="they">They/Them</option>
+                    <option value="n/a" selected>Prefer not to say</option>
+                </select>
             <br>
                 <label for="mailb1">
                 Email: </label><br>
-                <input type="text"; id="mailb1"; name="email"><br>
+                <input type="email"; id="mailb1"; name="email"><br>
             <br>
                 <label for="whyb1">
                 Why are you contacting me today? </label><br>
