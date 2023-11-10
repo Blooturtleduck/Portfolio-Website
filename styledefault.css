@@ -1,0 +1,23 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: lightblue; line-height: 3; text-indent: 10px;
+}
+
+nav a {
+    border: 2px solid white; font-size: large;
+}
+
+#linkedinB {
+    background-color:rgb(0, 61, 122); color:whitesmoke;
+}
+
+#githubB {
+    background-color:black; color:whitesmoke
+}
