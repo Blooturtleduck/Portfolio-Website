@@ -21,3 +21,11 @@ nav a {
 #githubB {
     background-color:black; color:whitesmoke
 }
+
+footer {
+    background-color: lightblue; padding-bottom: 30px; padding-top: 30px;
+}
+
+footer section {
+    margin-left: 15px;
+}
