@@ -27,7 +27,7 @@ nav a {
 }
 
 footer {
-    background-color: lightblue; padding-bottom: 30px; padding-top: 30px;
+    background-color: lightblue; padding-bottom: 30px; padding-top: 30px; font-size: 12px;
 }
 
 footer section {
