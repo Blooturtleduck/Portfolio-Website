@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-    background-color: lightblue; line-height: 3; text-indent: 10px;
+    background-color: lightblue; line-height: 3; text-indent: 10px; 
 }
 
 nav a {
@@ -20,6 +20,10 @@ nav a {
 
 #githubB {
     background-color:black; color:whitesmoke
+}
+
+.kiddoimage {
+    width: 500px; width: 75%;
 }
 
 footer {
