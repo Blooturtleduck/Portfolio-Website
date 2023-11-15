@@ -2,8 +2,21 @@ h2, h3 {
     text-align: center;
 }
 
+h1 {
+    width: 100px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    padding-right: 590px;
+}
+
+.myinfo {
+    text-align: right;
+    width: 20px
 }
 
 nav {
@@ -24,6 +37,10 @@ nav a {
 
 .kiddoimage {
     width: 40%;
+}
+
+#kiddotable {
+    border: 0px; text-align: left; display: flex; align-items: center; margin-left: 10%; margin-right: 10%;
 }
 
 footer {
