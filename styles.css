@@ -3,7 +3,7 @@ h2, h3 {
 }
 
 h1 {
-    width: 100px;
+    width: 25%;
 }
 
 body {
@@ -16,7 +16,8 @@ body {
 
 .myinfo {
     text-align: right;
-    width: 20px
+    width: 15%;
+    object-position: right;
 }
 
 nav {
