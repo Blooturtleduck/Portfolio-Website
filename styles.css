@@ -28,7 +28,7 @@ nav {
     font-weight: bold;
 }
 
-.pagelinek input[type="a"]:hover {
+input[type=".pagelink a"]:hover {
     color: rgb(43, 43, 43)
 }
 
