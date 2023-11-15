@@ -2,10 +2,6 @@ h2, h3 {
     text-align: center;
 }
 
-h1 {
-    width: 50%;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,8 +12,6 @@ body {
 
 .myinfo {
     text-align: right;
-    width: 15%;
-    object-position: right;
 }
 
 nav {
@@ -42,6 +36,10 @@ nav a {
 
 #kiddotable {
     border: 0px; text-align: left; display: flex; align-items: center; margin-left: 10%; margin-right: 10%;
+}
+
+#kiddotable dd {
+    font-weight: 400;
 }
 
 footer {
