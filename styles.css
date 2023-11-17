@@ -43,7 +43,7 @@ nav {
 .pfp {
     background-color: white;
     height: 50px;
-    position: relative;
+    position: absolute;
     left: 3px;
     top: 3px;
 }
