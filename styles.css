@@ -33,7 +33,7 @@ nav {
     font-weight: bold;
     position: relative;
     left: 55px;
-    top: 10px;
+    bottom: 10px;
 }
 
 .pagelink:hover {
