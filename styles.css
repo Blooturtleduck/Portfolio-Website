@@ -19,6 +19,7 @@ nav {
     background-color: whitesmoke;
     line-height: 3;
     text-indent: 10px; 
+    position: fixed
 }
 
 .pagelink {
@@ -27,7 +28,10 @@ nav {
     text-decoration: none;
     font-weight: bold;
     padding: 4px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    position: relative;
+    left: 55px;
+    top: 10px;
 }
 
 .pagelink:hover {
@@ -37,6 +41,9 @@ nav {
 .pfp {
     background-color: whitesmoke;
     height: 50px;
+    position: relative;
+    left: 3px;
+    top: 3px;
 }
 
 .kiddoimage {
