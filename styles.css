@@ -16,10 +16,14 @@ body {
 }
 
 nav {
-    background-color: whitesmoke;
+    background-color: white;
     line-height: 3;
     text-indent: 10px; 
-    position: fixed
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: fit-content;
 }
 
 .pagelink {
@@ -27,8 +31,6 @@ nav {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    padding: 4px;
-    margin-bottom: 10px;
     position: relative;
     left: 55px;
     top: 10px;
@@ -39,7 +41,7 @@ nav {
 }
 
 .pfp {
-    background-color: whitesmoke;
+    background-color: white;
     height: 50px;
     position: relative;
     left: 3px;
