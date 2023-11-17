@@ -26,14 +26,24 @@ nav {
     height: fit-content;
 }
 
+.heading {
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    left: 55px;
+    top: 3px;
+}
+
 .pagelink {
     font-size: large;
     color: black;
     text-decoration: none;
     font-weight: bold;
     position: relative;
-    left: 55px;
-    bottom: 10px;
+    right: 3px;
+    bottom: 5px;
 }
 
 .pagelink:hover {
