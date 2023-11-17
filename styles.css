@@ -42,12 +42,12 @@ nav {
     text-decoration: none;
     font-weight: bold;
     position: relative;
-    left: 90%;
+    left: 75%;
     top: 2px;
     
 }
 
-.pagelink:hover {
+.pagelink, .heading:hover {
     color: rgb(150, 150, 150)
 }
 
