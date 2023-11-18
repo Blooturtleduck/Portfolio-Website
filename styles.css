@@ -11,14 +11,6 @@ main {
     margin-top: 70px;
 }
 
-.title {
-    padding-right: 590px;
-}
-
-.myinfo {
-    text-align: right;
-}
-
 nav {
     background-color: white;
     line-height: 3;
@@ -63,6 +55,17 @@ nav {
     position: absolute;
     left: 3px;
     top: 3px;
+}
+
+#sectionskill {
+    position: relative;
+    object-position: center;
+    width: 100%;
+}
+
+.skill {
+    margin: 3px 7px 3px 7px;
+    width: fit-content;
 }
 
 .kiddoimage {
