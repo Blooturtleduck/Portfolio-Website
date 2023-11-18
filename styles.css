@@ -66,6 +66,7 @@ nav {
 .skill {
     margin: 3px 7px 3px 7px;
     width: fit-content;
+    position: absolute;
     display: block;
 }
 
