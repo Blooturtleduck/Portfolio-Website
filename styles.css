@@ -60,6 +60,7 @@ nav {
 #sectionskill {
     position: relative;
     object-position: center;
+    text-align: center;
     width: 100%;
 }
 
@@ -68,6 +69,7 @@ nav {
     width: fit-content;
     position: relative;
     display: inline-block;
+    object-position: top;
 }
 
 .kiddoimage {
