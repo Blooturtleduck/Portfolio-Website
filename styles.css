@@ -65,10 +65,10 @@ nav {
 }
 
 .skill {
-    margin: 3px 7px 3px 7px;
+    margin: 5px 15px 5px 15px;
     width: fit-content;
     position: relative;
-    display: inline-block;
+    display: flex;
     object-position: top;
 }
 
