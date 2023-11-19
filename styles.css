@@ -69,7 +69,7 @@ nav {
     width: fit-content;
     position: relative;
     display: inline-block;
-    min-height: 200px;
+    object-position: top;
 }
 
 .skill p {
