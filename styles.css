@@ -69,7 +69,11 @@ nav {
     width: fit-content;
     position: relative;
     display: inline-block;
-    object-position: top;
+    min-height: 200px;
+}
+
+.skill p {
+    text-align: left;
 }
 
 .kiddoimage {
