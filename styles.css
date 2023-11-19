@@ -59,17 +59,16 @@ nav {
 
 #sectionskill {
     position: relative;
-    object-position: center;
+    object-position: top center;
     text-align: center;
     width: 100%;
 }
 
 .skill {
-    margin: 5px 15px 5px 15px;
+    margin: 3px 15px 3px 15px;
     width: fit-content;
     position: relative;
-    display: flex;
-    object-position: top;
+    display: inline-block;
 }
 
 .skill p {
