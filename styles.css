@@ -19,7 +19,7 @@ nav {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: fit-content;
+    height: 20px;
 }
 
 .heading {
@@ -41,7 +41,7 @@ nav {
     margin-right: 5px;
     display: inline-flex;
     position: relative;
-    left: 70%;
+    right: 3px;
     top: 2px;   
 }
 
