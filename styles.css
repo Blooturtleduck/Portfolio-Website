@@ -16,7 +16,6 @@ nav {
     line-height: 3;
     text-indent: 10px; 
     position: fixed;
-    display: flex;
     left: 0px;
     top: 0px;
     width: 100%;
