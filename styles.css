@@ -18,7 +18,7 @@ nav {
     position: fixed;
     left: 0px;
     top: 0px;
-    width: 100%;
+    width: max-content;
     height: fit-content;
 }
 
@@ -42,7 +42,6 @@ nav {
     position: flex;
     display: inline-flex;
     object-position: right;
-    
 }
 
 .pagelink:hover, .heading:hover {
