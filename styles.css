@@ -11,14 +11,6 @@ main {
     margin-top: 70px;
 }
 
-.title {
-    padding-right: 590px;
-}
-
-.myinfo {
-    text-align: right;
-}
-
 nav {
     background-color: white;
     line-height: 3;
@@ -28,6 +20,7 @@ nav {
     top: 0px;
     width: 100%;
     height: fit-content;
+    z-index: 1000;
 }
 
 .heading {
@@ -40,6 +33,13 @@ nav {
     top: 2px;
 }
 
+.pagelinkdiv {
+    display: inline-flex;
+    position: fixed;
+    right: 10px;
+    top: 2px;   
+}
+
 .pagelink {
     font-size: large;
     color: black;
@@ -47,14 +47,10 @@ nav {
     font-weight: bold;
     margin-left: 5px;
     margin-right: 5px;
-    position: relative;
-    left: 70%;
-    top: 2px;
-    
 }
 
 .pagelink:hover, .heading:hover {
-    color: rgb(150, 150, 150)
+    color: rgb(150, 150, 150);
 }
 
 .pfp {
@@ -65,6 +61,25 @@ nav {
     top: 3px;
 }
 
+#sectionskill {
+    position: relative;
+    object-position: center;
+    text-align: center;
+    width: 100%;
+}
+
+.skill {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: fit-content;
+    flex-direction: column;
+    display: inline-flex;
+}
+
+.skill p {
+    text-align: left;
+}
+
 .kiddoimage {
     width: 40%;
 }
@@ -73,6 +88,7 @@ nav {
     border: 0px;
     text-align: left;
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -83,12 +99,21 @@ dd strong {
 }
 
 footer {
-    background-color: lightblue;
+    background-color: white;
     padding-bottom: 30px;
     padding-top: 30px;
-    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
 }
 
-footer section {
+footer section a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
     margin-left: 15px;
+}
+
+footer section a:hover {
+    color: rgb(150, 150, 150);
 }
