@@ -49,6 +49,11 @@ nav {
     margin-right: 5px;
 }
 
+.sociallink {
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
 .pagelink:hover, .heading:hover {
     color: rgb(150, 150, 150);
 }
