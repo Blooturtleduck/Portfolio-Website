@@ -36,7 +36,7 @@ nav {
 .pagelinkdiv {
     display: inline-flex;
     position: fixed;
-    right: 3px;
+    right: 10px;
     top: 2px;   
 }
 
