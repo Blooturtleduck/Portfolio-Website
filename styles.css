@@ -102,7 +102,7 @@ footer {
     background-color: white;
     padding-bottom: 30px;
     padding-top: 30px;
-    position: relative;
+    position: absolute;
     width: 100%;
     left: 0px;
 }
