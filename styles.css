@@ -16,11 +16,11 @@ nav {
     line-height: 3;
     text-indent: 10px; 
     position: fixed;
+    display: flex;
     left: 0px;
     top: 0px;
     width: 100%;
     height: fit-content;
-    z-index: 1000;
 }
 
 .heading {
@@ -38,7 +38,7 @@ nav {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    margin-left: auto;
+    margin-left: auto;   
 }
 
 .pagelink:hover, .heading:hover {
