@@ -40,8 +40,9 @@ nav {
     margin-left: 5px;
     margin-right: 5px;
     display: inline-flex;
-    justify-content: flex-end right;
-    
+    position: absolute;
+    right: 3px;
+    top: 2px;   
 }
 
 .pagelink:hover, .heading:hover {
