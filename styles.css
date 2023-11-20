@@ -16,6 +16,8 @@ nav {
     line-height: 3;
     text-indent: 10px; 
     position: fixed;
+    display: flex;
+    justify-content: flex-end;
     left: 0px;
     top: 0px;
     width: 100%;
@@ -41,7 +43,6 @@ nav {
     margin-right: 5px;
     display: inline-flex;
     position: relative;
-    right: 3%;
     top: 2px;   
 }
 
