@@ -68,10 +68,8 @@ nav {
     margin-left: 5%;
     margin-right: 5%;
     width: fit-content;
-    position: relative;
-    display: inline-block;
-    min-height: 200px;
-    top: 0px;
+    position: flex;
+    flex-direction: column;
 }
 
 .skill p {
@@ -86,6 +84,7 @@ nav {
     border: 0px;
     text-align: left;
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
