@@ -20,6 +20,7 @@ nav {
     top: 0px;
     width: 100%;
     height: fit-content;
+    z-index: 1000;
 }
 
 .heading {
