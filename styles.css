@@ -81,22 +81,25 @@ nav {
 }
 
 #sectionkiddo {
-     position: relative;
+    position: relative;
     object-position: center;
     text-align: center;
     width: 100%;
 }
 
-.kiddoimage {
+.kiddos {
     width: 40%;
+    margin: 10%;
 }
 
 .kiddos p{
     display: inline-flex;
     flex-direction: column;
-    width: 40%;
-    margin: 10%;
     text-align: left;
+}
+
+.kiddoimage {
+    width: 40%;
 }
 
 footer {
