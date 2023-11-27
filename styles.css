@@ -90,11 +90,11 @@ nav {
 .kiddos {
     width: 40%;
     margin: 10%;
+    display: inline-flex;
+    flex-direction: column;
 }
 
 .kiddos p{
-    display: inline-flex;
-    flex-direction: column;
     text-align: left;
 }
 
