@@ -81,7 +81,7 @@ nav {
 }
 
 #sectionkiddo {
-    position: relative;
+     position: relative;
     object-position: center;
     text-align: center;
     width: 100%;
@@ -91,7 +91,7 @@ nav {
     width: 40%;
 }
 
-.kiddos{
+.kiddos p{
     display: inline-flex;
     flex-direction: column;
     width: 40%;
