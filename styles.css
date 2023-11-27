@@ -87,7 +87,7 @@ nav {
 }
 
 .kiddos {
-    width: fit-content;
+    width: 40%;
     margin: 10%;
     display: inline-flex;
     flex-direction: column;
