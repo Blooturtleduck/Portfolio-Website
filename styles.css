@@ -80,22 +80,23 @@ nav {
     text-align: left;
 }
 
+#sectionkiddo {
+    position: relative;
+    object-position: center;
+    text-align: center;
+    width: 100%;
+}
+
 .kiddoimage {
     width: 40%;
 }
 
-#kiddotable {
-    border: 0px;
-    text-align: left;
-    display: flex;
+.kiddos{
+    display: inline-flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-dd strong {
-    font-weight: 400;
+    width: 40%;
+    margin: 10%;
+    text-align: left;
 }
 
 footer {
