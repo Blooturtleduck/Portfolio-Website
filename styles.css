@@ -96,7 +96,7 @@ nav {
     flex-shrink: 10;
     background-color: rgb(15, 88, 147);
     text-align: center;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
 }
 
