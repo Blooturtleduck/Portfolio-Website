@@ -101,6 +101,7 @@ nav {
 
 .kiddoimage {
     width: 190px;
+    object-position: center;
 }
 
 footer {
