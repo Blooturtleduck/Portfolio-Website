@@ -101,7 +101,7 @@ nav {
 }
 
 .kiddoimage {
-    height: 300px;
+    height: fit-content;
     text-align: center;
 }
 
