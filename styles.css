@@ -89,9 +89,10 @@ nav {
 .kiddos {
     width: 40%;
     margin: 10%;
+    padding: 7px;
     border: 0px;
     border-radius: 10px;
-    width: 200px;
+    width: 300px;
     flex-shrink: 10%;
     background-color: rgb(15, 88, 147);
     text-align: center;
@@ -100,8 +101,9 @@ nav {
 }
 
 .kiddoimage {
-    width: 190px;
-    object-position: center;
+    width: 300px;
+    flex-shrink: 10%;
+    text-align: center;
 }
 
 footer {
