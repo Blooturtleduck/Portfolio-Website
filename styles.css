@@ -95,7 +95,7 @@ nav {
     width: 300px;
     background-color: rgb(15, 88, 147);
     text-align: center;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
 }
 
