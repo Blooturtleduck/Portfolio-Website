@@ -63,7 +63,6 @@ nav {
 
 #sectionskill {
     position: relative;
-    object-position: center;
     text-align: center;
     width: 100%;
 }
@@ -80,22 +79,29 @@ nav {
     text-align: left;
 }
 
-.kiddoimage {
-    width: 40%;
+#sectionkiddo {
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 
-#kiddotable {
+.kiddos {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 7px;
     border: 0px;
-    text-align: left;
-    display: flex;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(15, 88, 147);
+    text-align: center;
+    display: inline-flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
-dd strong {
-    font-weight: 400;
+.kiddoimage {
+    height: 300px;
+    text-align: center;
 }
 
 footer {
