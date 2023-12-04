@@ -87,7 +87,7 @@ nav {
 }
 
 .kiddos {
-    width: fit-content;
+    width: 400px;
     height: 400px;
     margin: 10%;
     padding: 7px;
@@ -101,7 +101,7 @@ nav {
 }
 
 .kiddoimage {
-    height: fit-content;
+    height: 300px;
     text-align: center;
 }
 
