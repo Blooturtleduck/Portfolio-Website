@@ -93,7 +93,6 @@ nav {
     border: 0px;
     border-radius: 10px;
     width: 300px;
-    flex-shrink: 10;
     background-color: rgb(15, 88, 147);
     text-align: center;
     display: flex;
@@ -102,7 +101,6 @@ nav {
 
 .kiddoimage {
     width: 300px;
-    flex-shrink: 10;
     text-align: center;
 }
 
