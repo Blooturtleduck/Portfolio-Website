@@ -61,6 +61,12 @@ nav {
     top: 3px;
 }
 
+.mainheader {
+    text-align: center; 
+    font-size: xx-large;
+    margin: 25px 0px 25px 0px
+}
+
 #sectionskill {
     position: relative;
     text-align: center;
