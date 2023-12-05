@@ -74,6 +74,10 @@ nav {
     top: 3px;
 }
 
+main {
+    background-image: img/4853433.jpg;
+}
+
 #sectionskill {
     position: relative;
     text-align: center;
