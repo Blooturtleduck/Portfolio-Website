@@ -80,10 +80,18 @@ nav {
     width: fit-content;
     flex-direction: column;
     display: inline-flex;
+    border: 1px;
+    border-radius: 10px;
+    border-color: rgb(15, 88, 147);
+}
+
+.skill h3 {
+    background-color: rgb(15, 88, 147);
 }
 
 .skill p {
     text-align: left;
+    background-color: white;
 }
 
 #sectionkiddo, .sectioncert {
