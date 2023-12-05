@@ -75,22 +75,21 @@ nav {
 }
 
 .skill {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 20px;
     width: 300px;
     flex-direction: column;
     display: inline-flex;
-    border: 10px;
+    border: 0px;
     border-radius: 10px;
-    border-color: rgb(15, 88, 147);
     background-color: rgb(15, 88, 147);
 }
 
 .skill p {
     text-align: left;
     background-color: white;
-    border: 0px;
+    border: 10px;
     border-radius: 0px 0px 10px 10px;
+    border-color: rgb(15, 88, 147);
 }
 
 #sectionkiddo, .sectioncert {
