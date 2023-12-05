@@ -121,7 +121,7 @@ nav {
 .certificates {
     width: 400px;
     margin: 20px;
-    padding: 7px;
+    padding: 7px 7px 14px 7px;
     text-align: center;
     border: 0px;
     border-radius: 10px;
