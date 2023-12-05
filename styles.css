@@ -107,7 +107,7 @@ nav {
     width: 400px;
     margin: 20px;
     padding: 7px;
-    text-align: left;
+    text-align: center;
     display: inline-flex;
     flex-direction: column;
 }
