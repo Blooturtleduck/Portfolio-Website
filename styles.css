@@ -81,15 +81,15 @@ nav {
     display: inline-flex;
     border: 0px;
     border-radius: 10px;
-    background-color: rgb(15, 88, 147);
+    background-color: rgb(23, 107, 176);
 }
 
 .skill p {
     text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: white;
-    border: 10px;
     border-radius: 0px 0px 10px 10px;
-    border-color: rgb(15, 88, 147);
 }
 
 #sectionkiddo, .sectioncert {
@@ -105,7 +105,7 @@ nav {
     padding: 7px;
     border: 0px;
     border-radius: 10px;
-    background-color: rgb(15, 88, 147);
+    background-color: rgb(23, 107, 176);
     text-align: center;
     display: inline-flex;
     flex-direction: column;
