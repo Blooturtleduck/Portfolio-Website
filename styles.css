@@ -103,6 +103,11 @@ nav {
     border-radius: 0px 0px 10px 10px;
 }
 
+.skill:hover, .kiddos:hover, .certificates:hover {
+    scale: 125%;
+    transition-duration: 1s;
+}
+
 #sectionkiddo, .sectioncert {
     position: relative;
     text-align: center;
