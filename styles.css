@@ -75,7 +75,7 @@ nav {
 }
 
 main {
-    background-image: img/4853433.jpg;
+    background-image: src="img/4853433.jpg";
 }
 
 #sectionskill {
@@ -162,4 +162,9 @@ footer section a {
 
 footer section a:hover {
     color: rgb(150, 150, 150);
+}
+
+footer section div {
+    font-size: 12px;
+    color: black
 }
