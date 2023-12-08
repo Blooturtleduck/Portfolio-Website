@@ -28,7 +28,7 @@ main {
 }
 
 nav {
-    background-color: white;
+    background-color: #EBF6F8;
     line-height: 3;
     text-indent: 10px; 
     position: fixed;
@@ -149,7 +149,7 @@ nav {
 }
 
 footer {
-    background-color: white;
+    background-color: #FFF9F3;
     padding: 30px 15px 30px 15px;
     position: absolute;
     width: 100%;
