@@ -17,7 +17,7 @@ h4 {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightsteelblue;
+    background-image: src="img/4853433.jpg";
 }
 
 main {
@@ -72,10 +72,6 @@ nav {
     position: absolute;
     left: 3px;
     top: 3px;
-}
-
-main {
-    background-image: src="img/4853433.jpg";
 }
 
 #sectionskill {
