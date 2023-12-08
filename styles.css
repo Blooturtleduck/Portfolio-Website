@@ -104,7 +104,7 @@ nav {
 }
 
 .skill:hover, .kiddos:hover, .certificates:hover {
-    scale: 125%;
+    scale: 110%;
     transition-duration: 1s;
 }
 
