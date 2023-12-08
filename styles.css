@@ -20,6 +20,7 @@ body {
     background-image: url('img/4853433.jpg');
     background-size: auto;
     background-repeat: repeat;
+    background-blend-mode: color;
 }
 
 main {
