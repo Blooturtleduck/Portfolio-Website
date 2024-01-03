@@ -103,15 +103,33 @@ nav {
     border-radius: 0px 0px 10px 10px;
 }
 
-.skill:hover, .kiddos:hover, .certificates:hover {
+.skill:hover, .kiddos:hover, .certificates:hover, .projects:hover {
     scale: 110%;
     transition-duration: 1s;
 }
 
-#sectionkiddo, .sectioncert {
+#sectionkiddo, .sectioncert, .sectionproj {
     position: relative;
     text-align: center;
     width: 100%;
+}
+
+.projects {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 7px 7px 14px 7px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(23, 107, 176);
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.projectprev {
+    height: 300px;
+    text-align: center;
 }
 
 .kiddos {
