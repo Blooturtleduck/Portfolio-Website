@@ -132,6 +132,11 @@ nav {
     text-align: center;
 }
 
+.projlink {
+    color: black;
+    text-decoration: none;
+}
+
 .kiddos {
     width: 300px;
     height: 400px;
