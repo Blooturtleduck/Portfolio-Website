@@ -49,6 +49,17 @@ nav {
     top: 2px;
 }
 
+.indexdiv {
+    width: 45%;
+    margin: 10px;
+    flex-direction: column;
+    display: inline-flex;
+}
+
+.indeximg {
+    width: 300px;
+}
+
 .pagelinkdiv {
     display: inline-flex;
     position: fixed;
