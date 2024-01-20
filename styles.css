@@ -1,10 +1,26 @@
-h2, h3 {
+h2 {
+    text-align: center; 
+    font-size: xx-large;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h3 {
     text-align: center;
+    font-size: x-large;
+}
+
+h4 {
+    text-align: center;
+    font-size: larger;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightsteelblue;
+    background-image: url('img/4853433.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 main {
@@ -12,7 +28,7 @@ main {
 }
 
 nav {
-    background-color: white;
+    background-color: #EBF6F8;
     line-height: 3;
     text-indent: 10px; 
     position: fixed;
@@ -31,6 +47,17 @@ nav {
     position: relative;
     left: 55px;
     top: 2px;
+}
+
+.indexdiv {
+    width: 45%;
+    margin: 10px;
+    flex-direction: column;
+    display: inline-flex;
+}
+
+.indeximg {
+    width: 300px;
 }
 
 .pagelinkdiv {
@@ -54,7 +81,6 @@ nav {
 }
 
 .pfp {
-    background-color: white;
     height: 50px;
     position: absolute;
     left: 3px;
@@ -68,32 +94,68 @@ nav {
 }
 
 .skill {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: fit-content;
+    margin: 20px 20px 50px 20px;
+    width: 300px;
+    height: 245px;
     flex-direction: column;
     display: inline-flex;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(23, 107, 176);
 }
 
 .skill p {
     text-align: left;
+    margin: -5px 7px 7px 7px;
+    padding: 10px;
+    height: 150px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
 }
 
-#sectionkiddo {
+.skill:hover, .kiddos:hover, .certificates:hover, .projects:hover {
+    scale: 110%;
+    transition-duration: 1s;
+}
+
+#sectionkiddo, .sectioncert, .sectionproj {
     position: relative;
     text-align: center;
     width: 100%;
 }
 
-.kiddos {
-    width: 400px;
-    height: 400px;
+.projects {
+    width: 300px;
+    height: 183px;
     margin: 20px;
-    padding: 7px;
+    padding: 7px 7px 14px 7px;
     border: 0px;
     border-radius: 10px;
+    background-color: rgb(23, 107, 176);
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.projectprev {
     width: 300px;
-    background-color: rgb(15, 88, 147);
+    text-align: center;
+}
+
+.projlink {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.kiddos {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 7px 7px 14px 7px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(23, 107, 176);
     text-align: center;
     display: inline-flex;
     flex-direction: column;
@@ -104,10 +166,25 @@ nav {
     text-align: center;
 }
 
+.certificates {
+    width: 400px;
+    margin: 20px;
+    padding: 7px 7px 14px 7px;
+    text-align: center;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(23, 107, 176);
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.certificates img{
+    width: 400px;
+}
+
 footer {
-    background-color: white;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    background-color: #FFF9F3;
+    padding: 30px 15px 30px 15px;
     position: absolute;
     width: 100%;
     left: 0px;
@@ -117,9 +194,13 @@ footer section a {
     font-size: 12px;
     color: black;
     text-decoration: none;
-    margin-left: 15px;
 }
 
 footer section a:hover {
     color: rgb(150, 150, 150);
+}
+
+#bgimgcred {
+    font-size: 12px;
+    color: black
 }
