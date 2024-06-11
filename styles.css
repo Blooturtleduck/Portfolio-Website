@@ -120,7 +120,6 @@ nav {
 #sectionkiddo, .sectioncert, .sectionproj {
     position: relative;
     text-align: center;
-    display: inline-flex;
     width: 100%;
 }
 
