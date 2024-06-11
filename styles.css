@@ -50,10 +50,9 @@ nav {
 }
 
 .indexdiv {
-    width: 45%;
-    margin: 10px;
-    flex-direction: column;
-    display: inline-flex;
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 
 .indeximg {
@@ -126,7 +125,7 @@ nav {
 
 .projects {
     width: 300px;
-    height: 183px;
+    height: 200px;
     margin: 20px;
     padding: 7px 7px 14px 7px;
     border: 0px;
