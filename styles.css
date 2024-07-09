@@ -146,6 +146,13 @@ nav {
     text-align: center;
 }
 
+.sectionvidupdate {
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+
 .updateimg {
     height: 500px;
     text-align: center;   
