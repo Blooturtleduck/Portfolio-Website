@@ -119,8 +119,7 @@ nav {
 }
 
 #sectionkiddo, .sectioncert, .sectionproj {
-    display: inline-flex;
-    flex-direction: column;
+    position: relative;
     text-align: center;
     width: 100%;
 }
