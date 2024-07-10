@@ -221,7 +221,7 @@ nav {
 footer {
     background-color: #FFF9F3;
     margin: 30px 15px 30px 15px;
-    position: absolute;
+    position: static;
     width: 100%;
     left: 0px;
 }
