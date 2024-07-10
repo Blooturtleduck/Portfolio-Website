@@ -147,9 +147,18 @@ nav {
 }
 
 .sectionvidupdate {
-    width: 100%;
     text-align: center;
     display: inline-flex;
+    flex-direction: column;
+}
+
+.update {
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgba(7,127,167,0.5);
 }
 
 .updateimg {
