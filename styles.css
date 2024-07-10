@@ -148,16 +148,12 @@ nav {
 
 .sectionvidupdate {
     text-align: center;
-    display: inline-flex;
-    flex-direction: column;
 }
 
 .update {
     width: 90%;
     height: fit-content;
-    text-align: center;
-    display: inline-flex;
-    flex-direction: column;
+    margin: 50px;
     background-color: rgba(7,127,167,0.5);
 }
 
