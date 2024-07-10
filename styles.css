@@ -221,8 +221,8 @@ nav {
 footer {
     background-color: #FFF9F3;
     padding: 30px 15px 30px 15px;
-    position: static;
-    width: 100%;
+    position: absolute;
+    width: 85%;
     left: 0px;
 }
 
