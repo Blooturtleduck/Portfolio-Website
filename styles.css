@@ -154,7 +154,8 @@ nav {
     width: 90%;
     height: fit-content;
     margin: 50px;
-    background-color: rgba(7,127,167,0.5);
+    padding: 25px;
+    background-color: rgba(7,127,167,0.3);
 }
 
 .updateimg {
