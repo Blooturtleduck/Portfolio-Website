@@ -153,14 +153,16 @@ nav {
 .update {
     width: 90%;
     height: fit-content;
-    margin: 50px;
-    padding: 25px;
+    margin: 25px;
+    padding: 10px;
     background-color: rgba(7,127,167,0.3);
 }
 
 .updateimg {
     height: 500px;
-    text-align: center;   
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;   
 }
 
 .sectionimgupdate {
